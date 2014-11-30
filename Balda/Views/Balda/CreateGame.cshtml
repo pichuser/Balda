@@ -1,0 +1,26 @@
+﻿@model Balda.Models.CreateGameModel
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<table>
+    @using (Html.BeginForm("CreateGame", "Balda", FormMethod.Post))
+    {
+        <tr>
+            <td>
+                @Html.ValidationSummary()
+                @Html.LabelFor(m => m.Player1)
+                @Html.TextBoxFor(m => m.Player1)
+                @Html.LabelFor(m => m.GameId)
+                @Html.TextBoxFor(m => m.GameId)
+                @Html.LabelFor(m => m.Password)
+                @Html.TextBoxFor(m => m.Password)
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>Создать</button>
+            </td>
+        </tr>
+    }
+</table>

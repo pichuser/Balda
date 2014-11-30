@@ -1,0 +1,35 @@
+﻿@section Scripts
+{<script src="~/Scripts/jquery-2.1.1.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.1.2.js"></script>
+    <script src="/signalr/hubs" type="text/javascript"></script>
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            // приготовим Id пользователя.
+            var userId = '@ViewBag.UserId';
+            // прокси         
+            var chat = $.connection.testHub;
+
+            // объявляем callback, который среагирует на событие сервера          
+            chat.client.SendMessage = function (message) {
+                // обновляем счётчик сообщений
+                alert(message);
+            };
+
+            // Запускаем хаб
+            $.connection.hub.start().done(function () {
+                // расскажем серверу кто подключился
+                $('#testButton').click(sendMes);
+                chat.server.register(userId);
+
+            });
+
+            function sendMes() {
+                chat.server.send("hello");
+            }
+        });
+    </script>
+}
+<button id="testButton">Тест</button>

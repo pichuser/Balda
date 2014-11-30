@@ -1,0 +1,8 @@
+F:\spichuzhkin\Projects\Balda\Balda.Logging\bin\Debug\NLog.config
+F:\spichuzhkin\Projects\Balda\Balda.Logging\bin\Debug\Balda.Logging.dll
+F:\spichuzhkin\Projects\Balda\Balda.Logging\bin\Debug\Balda.Logging.pdb
+F:\spichuzhkin\Projects\Balda\Balda.Logging\bin\Debug\NLog.dll
+F:\spichuzhkin\Projects\Balda\Balda.Logging\bin\Debug\NLog.xml
+F:\spichuzhkin\Projects\Balda\Balda.Logging\obj\Debug\Balda.Logging.csprojResolveAssemblyReference.cache
+F:\spichuzhkin\Projects\Balda\Balda.Logging\obj\Debug\Balda.Logging.dll
+F:\spichuzhkin\Projects\Balda\Balda.Logging\obj\Debug\Balda.Logging.pdb

@@ -1,0 +1,22 @@
+﻿@model Balda.Models.CreateGameModel
+<div>
+    @Html.ValidationSummary()
+    <table>
+        <tr>
+            <td>
+                @using (Html.BeginForm("CreateGame", "Balda", FormMethod.Get))
+                {        
+                    <button>Создать игру</button>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @using (Html.BeginForm("EnterToGame", "Balda", FormMethod.Get))
+                {        
+                    <button>Присоединиться к игре</button>
+                }
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda", "Balda\Balda.csproj", "{4C4CC7BA-BC3A-4F94-A35F-F4C9802CFF72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E0C74D79-C3AA-412E-9EEB-3980B56D086D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.Test", "Balda.Test\Balda.Test.csproj", "{B056DBE2-3FAB-4419-8BC9-7E7099F617CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.Services", "Balda.Services\Balda.Services.csproj", "{9D9AAEB5-9692-408D-8778-127F24DB90DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.DataAccess", "Balda.DataAccess\Balda.DataAccess.csproj", "{6FF05246-2BC7-4000-BBF5-C513B3BACE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.DI", "Balda.DI\Balda.DI.csproj", "{9ED8710D-4497-444A-8B66-B1B1A28CA550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.UserManagement", "Balda.UserManagement\Balda.UserManagement.csproj", "{439EBE97-7DF5-4233-8A89-12BADD5E3A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.TestDebug", "Balda.TestDebug\Balda.TestDebug.csproj", "{6A143807-E2EF-4360-996D-06B68DF81461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.MainModule", "Balda.MainModule\Balda.MainModule.csproj", "{BA5EC10A-EB3E-421B-A910-3308C8E45444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balda.Logging", "Balda.Logging\Balda.Logging.csproj", "{62E31D3F-7E14-4EDC-B9E0-E3E7265D3726}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://pichuser.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Balda\\Balda.csproj
+		SccProjectName1 = Balda
+		SccLocalPath1 = Balda
+		SccProjectUniqueName2 = Balda.Test\\Balda.Test.csproj
+		SccProjectName2 = Balda.Test
+		SccLocalPath2 = Balda.Test
+		SccProjectUniqueName3 = Balda.Services\\Balda.Services.csproj
+		SccProjectName3 = Balda.Services
+		SccLocalPath3 = Balda.Services
+		SccProjectUniqueName4 = Balda.DataAccess\\Balda.DataAccess.csproj
+		SccProjectName4 = Balda.DataAccess
+		SccLocalPath4 = Balda.DataAccess
+		SccProjectUniqueName5 = Balda.DI\\Balda.DI.csproj
+		SccProjectName5 = Balda.DI
+		SccLocalPath5 = Balda.DI
+		SccProjectUniqueName6 = Balda.UserManagement\\Balda.UserManagement.csproj
+		SccProjectName6 = Balda.UserManagement
+		SccLocalPath6 = Balda.UserManagement
+		SccProjectUniqueName7 = Balda.TestDebug\\Balda.TestDebug.csproj
+		SccProjectName7 = Balda.TestDebug
+		SccLocalPath7 = Balda.TestDebug
+		SccProjectUniqueName8 = Balda.MainModule\\Balda.MainModule.csproj
+		SccProjectName8 = Balda.MainModule
+		SccLocalPath8 = Balda.MainModule
+		SccProjectUniqueName9 = Balda.Logging\\Balda.Logging.csproj
+		SccProjectName9 = Balda.Logging
+		SccLocalPath9 = Balda.Logging
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C4CC7BA-BC3A-4F94-A35F-F4C9802CFF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4CC7BA-BC3A-4F94-A35F-F4C9802CFF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4CC7BA-BC3A-4F94-A35F-F4C9802CFF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4CC7BA-BC3A-4F94-A35F-F4C9802CFF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B056DBE2-3FAB-4419-8BC9-7E7099F617CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B056DBE2-3FAB-4419-8BC9-7E7099F617CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B056DBE2-3FAB-4419-8BC9-7E7099F617CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B056DBE2-3FAB-4419-8BC9-7E7099F617CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9AAEB5-9692-408D-8778-127F24DB90DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9AAEB5-9692-408D-8778-127F24DB90DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9AAEB5-9692-408D-8778-127F24DB90DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9AAEB5-9692-408D-8778-127F24DB90DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF05246-2BC7-4000-BBF5-C513B3BACE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF05246-2BC7-4000-BBF5-C513B3BACE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF05246-2BC7-4000-BBF5-C513B3BACE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF05246-2BC7-4000-BBF5-C513B3BACE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED8710D-4497-444A-8B66-B1B1A28CA550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED8710D-4497-444A-8B66-B1B1A28CA550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED8710D-4497-444A-8B66-B1B1A28CA550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED8710D-4497-444A-8B66-B1B1A28CA550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439EBE97-7DF5-4233-8A89-12BADD5E3A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439EBE97-7DF5-4233-8A89-12BADD5E3A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439EBE97-7DF5-4233-8A89-12BADD5E3A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439EBE97-7DF5-4233-8A89-12BADD5E3A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A143807-E2EF-4360-996D-06B68DF81461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A143807-E2EF-4360-996D-06B68DF81461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A143807-E2EF-4360-996D-06B68DF81461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A143807-E2EF-4360-996D-06B68DF81461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5EC10A-EB3E-421B-A910-3308C8E45444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5EC10A-EB3E-421B-A910-3308C8E45444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5EC10A-EB3E-421B-A910-3308C8E45444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5EC10A-EB3E-421B-A910-3308C8E45444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E31D3F-7E14-4EDC-B9E0-E3E7265D3726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E31D3F-7E14-4EDC-B9E0-E3E7265D3726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E31D3F-7E14-4EDC-B9E0-E3E7265D3726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E31D3F-7E14-4EDC-B9E0-E3E7265D3726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

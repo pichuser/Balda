@@ -1,0 +1,13 @@
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\Balda.DataAccess.dll.config
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\Balda.DataAccess.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\Balda.DataAccess.pdb
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\EntityFramework.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\System.Data.SQLite.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\System.Data.SQLite.EF6.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\System.Data.SQLite.Linq.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\EntityFramework.xml
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\bin\Debug\System.Data.SQLite.xml
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\obj\Debug\Balda.DataAccess.dll
+F:\spichuzhkin\Projects\Balda\Balda.DataAccess\obj\Debug\Balda.DataAccess.pdb

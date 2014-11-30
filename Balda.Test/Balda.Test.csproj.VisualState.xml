@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]F:\spichuzhkin\Projects\Balda\Balda.Test\Balda.Test.csproj</TopNode>
+  <SelectedNode>[0-1016]Balda.Test.GameBoardTest.IfTaskIsOlderThen1HourThenItMustBeDelete</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]F:\spichuzhkin\Projects\Balda\Balda.Test\Balda.Test.csproj" Expanded="true" />
+    <Node UniqueName="[0-1035]F:\spichuzhkin\Projects\Balda\Balda.Test\bin\Debug\Balda.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1036]Balda" Expanded="true" />
+    <Node UniqueName="[0-1037]Balda.Test" Expanded="true" />
+    <Node UniqueName="[0-1005]Balda.Test.GameBoardTest" Expanded="true" />
+  </Nodes>
+</VisualState>

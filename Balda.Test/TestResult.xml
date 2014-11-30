@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="F:\spichuzhkin\Projects\Balda\Balda.Test\Balda.Test.csproj" total="35" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-30" time="22:39:24">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5001" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="PS-HOMEBIG" user="З" user-domain="PS-HOMEBIG" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Project" name="F:\spichuzhkin\Projects\Balda\Balda.Test\Balda.Test.csproj" executed="True" result="Success" success="True" time="1.929" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="F:\spichuzhkin\Projects\Balda\Balda.Test\bin\Debug\Balda.Test.dll" executed="True" result="Success" success="True" time="1.910" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Balda" executed="True" result="Success" success="True" time="1.910" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="1.909" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="DataRepositoryTest" executed="True" result="Success" success="True" time="0.618" asserts="0">
+                    <results>
+                      <test-case name="Balda.Test.DataRepositoryTest.IfAddWordsThanTheyAdded" executed="True" result="Success" success="True" time="0.550" asserts="1" />
+                      <test-case name="Balda.Test.DataRepositoryTest.ShouldReturnData" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GameBoardTest" executed="True" result="Success" success="True" time="1.199" asserts="0">
+                    <results>
+                      <test-case name="Balda.Test.GameBoardTest.CheckGamePass" executed="True" result="Success" success="True" time="0.777" asserts="2" />
+                      <test-case name="Balda.Test.GameBoardTest.ConnectToGameNotValidGuid" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.ConnectToGameThroughGuid" executed="True" result="Success" success="True" time="0.017" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.ConnectToGameValid" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.ConnectToGameWithIrregularPassword" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.GetAllGames" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.IfConnectAlreadyRegisteredPlayer" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="Balda.Test.GameBoardTest.IfConnectToGameThanAddThisUser" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.IfCreateGameThenYouCanGetItGuid" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.IfIDeleteGameThenICanCreateItAgain" executed="True" result="Success" success="True" time="0.011" asserts="2" />
+                      <test-case name="Balda.Test.GameBoardTest.IfTaskIsOlderThen1HourThenItMustBeDelete" executed="True" result="Success" success="True" time="0.194" asserts="2" />
+                      <test-case name="Balda.Test.GameBoardTest.IfYouDeleteGameThenItGuidIsNull" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.IfYouDeleteGameThenYouCantConnect" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.TestGetMainModelById" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.TestSetMainModel" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.UpdateMainModel" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.WhenCreateGameThenItInGamesWithTimes" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                      <test-case name="Balda.Test.GameBoardTest.WhenDeleteGameThenTheyDontExistAndPlayersNotExist_AndUsedWordsNotExist" executed="True" result="Success" success="True" time="0.006" asserts="4" />
+                      <test-case name="Balda.Test.GameBoardTest.YouCantCreateGameWithTheSameName" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="UserServiceTest" executed="True" result="Success" success="True" time="0.037" asserts="0">
+                    <results>
+                      <test-case name="Balda.Test.UserServiceTest.IfAddPlayerThenItExist" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="Balda.Test.UserServiceTest.IfSetPlayersInGameThenTheyExist" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="Balda.Test.UserServiceTest.TestAddPointToUser" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                      <test-case name="Balda.Test.UserServiceTest.TestNextUser" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Balda.Test.UserServiceTest.TestSetCurrentUser" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="Balda.Test.UserServiceTest.TestSetUsers" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WordServiceTest" executed="True" result="Success" success="True" time="0.042" asserts="0">
+                    <results>
+                      <test-case name="Balda.Test.WordServiceTest.GetRandom5LetterWord" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                      <test-case name="Balda.Test.WordServiceTest.IfAddNotExistThenItExist" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="Balda.Test.WordServiceTest.IfWordWasUsedInOneGameThenItCanBeUsedInAnother" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                      <test-case name="Balda.Test.WordServiceTest.IfWordWasUsedThenException" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                      <test-case name="Balda.Test.WordServiceTest.TestCheckService" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="Balda.Test.WordServiceTest.TestGetHistoryWord" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="Balda.Test.WordServiceTest.TestGetPoints" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="Balda.Test.WordServiceTest.TestNotExistWord" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

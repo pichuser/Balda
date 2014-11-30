@@ -1,0 +1,13 @@
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Balda.UserManagement.dll
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Balda.UserManagement.pdb
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Automatonymous.dll
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Balda.DataAccess.dll
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Taskell.dll
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\EntityFramework.dll
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Balda.DataAccess.pdb
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Automatonymous.xml
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\Taskell.xml
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\bin\Debug\EntityFramework.xml
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\obj\Debug\Balda.UserManagement.csprojResolveAssemblyReference.cache
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\obj\Debug\Balda.UserManagement.dll
+F:\spichuzhkin\Projects\Balda\Balda.UserManagement\obj\Debug\Balda.UserManagement.pdb

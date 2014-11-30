@@ -1,0 +1,26 @@
+﻿@model Balda.Models.EnterToGameThroughGuidModel
+@section Scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<div>
+    Вас приглашают сыграть в игру Балда
+</div>
+<table>
+    @using (@Html.BeginForm("EnterToGameThroughGuid", "Balda", FormMethod.Post))
+    {
+        <tr>
+            <td>
+                @Html.ValidationSummary()
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+                @Html.HiddenFor(m => m.GameGuid)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>Войти</button>
+            </td>
+        </tr>
+    }
+</table>

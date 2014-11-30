@@ -1,0 +1,13 @@
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Balda.Services.dll
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Balda.Services.pdb
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Balda.DataAccess.dll
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Balda.UserManagement.dll
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Ninject.dll
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\EntityFramework.dll
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Balda.DataAccess.pdb
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Balda.UserManagement.pdb
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\Ninject.xml
+F:\spichuzhkin\Projects\Balda\Balda.Services\bin\Debug\EntityFramework.xml
+F:\spichuzhkin\Projects\Balda\Balda.Services\obj\Debug\Balda.Services.csprojResolveAssemblyReference.cache
+F:\spichuzhkin\Projects\Balda\Balda.Services\obj\Debug\Balda.Services.dll
+F:\spichuzhkin\Projects\Balda\Balda.Services\obj\Debug\Balda.Services.pdb

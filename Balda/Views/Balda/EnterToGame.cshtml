@@ -1,0 +1,26 @@
+﻿@model Balda.Models.EnterToGameModel
+@section Scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<table>
+    @using (@Html.BeginForm("EnterToGame", "Balda", FormMethod.Post))
+    {
+        <tr>
+            <td>
+                @Html.ValidationSummary()
+                @Html.LabelFor(m => m.GameId)
+                @Html.TextBoxFor(m => m.GameId)
+                @Html.LabelFor(m => m.GamePassword)
+                @Html.PasswordFor(m => m.GamePassword)
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>Войти</button>
+            </td>
+        </tr>
+    }
+</table>
